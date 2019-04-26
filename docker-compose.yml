@@ -4,5 +4,3 @@ services:
     build: .
     ports:
      - "3999:3999"
-    volumes:
-    - /Users/schoenfeld/code/acn/presentations/docker:/presentation

@@ -1,0 +1,69 @@
+Introduction to Docker
+
+26 April 2019
+
+EHS
+
+* 
+.image docker.png
+.background container.gif
+
+* I want to create an application
+
+* The old way
+- Choose an operating system
+- Install your framework version
+- Install the packages you need
+
+* What about when...
+- Your developers have different types of machines
+- Your production server doesn't have the same framework version
+- Your hardware can't support more Virtual machines
+- Some other process is affecting your runtime
+- You have to upgrade your versions
+
+* 
+.background overwhelmed.gif 300 300
+
+* Docker Simplifies
+
+Your code becomes one package.
+- A Docker container will run the same on all hosts
+- Self contained
+- Secure
+- Fast
+
+* 
+.background how.gif
+
+* Dockerfile
+
+.code ubuntu.Dockerfile
+
+* Running the Dockerfile
+
+.code run.sh
+.image whoa.gif 300 300
+
+* Development
+
+.code Dockerfile
+
+* What's next? 
+
+* Pets vs Cattle
+.background cattle.gif 300 300
+
+* 
+
+.image kis.png
+
+* 
+.background microservice.png
+
+* How does this apply to AWS
+- EKS
+- Beanstalk
+- Fargate
+- ECS
+- Registry
